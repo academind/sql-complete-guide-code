@@ -4,7 +4,7 @@ This repository contains the code (the SQL commands) we show in our [SQL - The C
 
 The code / command snapshots are organized into multiple **branches** where each branch represents a different **course section**.
 
-For example, the branch [05-crud](/academind/sql-complete-guide-code/tree/05-crud) belongs to **Course Section 5: "Data Manipulation & Querying: CRUD Operations With SQL"**.
+For example, the branch [05-data-manipulation-crud](https://github.com/academind/sql-complete-guide-code/tree/05-data-manipulation-crud) belongs to **Course Section 5: "Data Manipulation & Querying: CRUD Operations With SQL"**.
 
 Inside each branch, you find two main folders:
 
