@@ -2,8 +2,10 @@
 CREATE TYPE employment_status AS ENUM('employed', 'self-employed', 'unemployed');
 
 CREATE TABLE users (
-  full_name VARCHAR(200), 
-  yearly_salary INT,
+  full_name VARCHAR(200),
+  year_salary INT,
+  -- MySQL syntax
+  -- current_status ENUM('employed', 'self-employed', 'unemployed')
+  -- PostgreSQL syntax
   current_status employment_status
-  -- current_status ENUM('employed', 'self-employed', 'unemployed') -- MySQL syntax
 );
